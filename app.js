@@ -23,7 +23,8 @@ app.get('/landmarktechnologies', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app develpoed by MyLandmarkTech</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center> Welcome to Team Grace. You are all DevOps Engineers Now ();
+    response.write("<h2><center> Welcome to Team Grace. You are all DevOps Engineers Now <center></h2>" );
+    response.end();
     
   })
  
